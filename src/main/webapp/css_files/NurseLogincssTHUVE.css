@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* Sample basic styling */
+	
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;  /* Flexbox layout */
+    justify-content: flex-start;  /* Align items to the left */
+    align-items: center;          /* Center items vertically */ /* Centers horizontally */
+      /* Centers vertically */
+    margin: 0;  /* Reset any margins */
+    padding: 0; 
+     /* Reset any padding */
+}
+
+        .login-box {
+            width: 400px;
+            padding: 40px;
+            position: relative;
+            background: #fff;
+            text-align: center;
+            margin-left: 160px;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+        }
+        .login-box h2 {
+            margin: 0 0 30px;
+            padding: 0;
+            color: #333;
+        }
+        .user-box {
+            position: relative;
+            margin-bottom: 30px;
+        }
+        .user-box input {
+            width: 100%;
+            padding: 10px;
+            background: transparent;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #333;
+        }
+        .user-box label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px;
+            font-size: 16px;
+            color: #333;
+            pointer-events: none;
+            transition: .5s;
+        }
+        .user-box input:focus ~ label, 
+        .user-box input:valid ~ label {
+            top: -20px;
+            left: 0;
+            color: #ff5a00;
+            font-size: 12px;
+        }
+        .btn-login {
+    background-color: #4fb05b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.btn-login:hover {
+    background-color: #3a8b47; /* Darker green on hover */
+}
+
+.btn-back {
+    background-color: #ff5a00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.btn-back:hover {
+    background-color: #e65300; /* Darker orange on hover */
+}
+ body {
+    background-image: url('nurseloginbg.jpg'); /* Adjust the path as necessary */
+    background-size: cover; /* This will cover the entire screen */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    height: 100vh; /* Sets the height to 100% of the viewport height */
+	background-color: #f2f2f2;
+            font-family: 'Montserrat', sans-serif;
+}

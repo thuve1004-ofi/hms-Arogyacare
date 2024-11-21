@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treatments at Arogya Care Hospital</title>
+    
+    
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    
+    <link rel="stylesheet" type="text/css" href=".\css_files\treatmentcssTHUVE.css">
+    
+    <style type="text/css">header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005f73;
+    padding: 20px 30px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.logo h2 {
+    font-family: 'Georgia', Times, serif;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #005f73;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h2 {
+    font-size: 36px;
+}
+    </style>
+	
+	
+	
+	
+	
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const mobileMenu = document.getElementById('mobileMenu');
+    const navLinks = document.querySelector('nav ul');
+
+    mobileMenu.addEventListener('click', () => {
+        navLinks.classList.toggle('show-menu');
+    });
+});
+</script>
+</head>
+<body>
+
+
+<header>
+    <div class="logo">
+        <img src="Logo.jpeg" alt="Hospital Logo">
+        <h2>Arogya Care Hospital</h2>
+    </div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="home.jsp">Home</a></li>
+            <li><a href="TreatmentTHUVE.html">Treatments</a></li>
+            <li><a href="#appointments">Appointments</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Login</a>
+                <div class="dropdown-content">
+                    <a href="#Patient">Patient</a>
+                    <a href="doctorLogin.jsp">Doctor</a>
+                    <a href="NurseLoginTHUVE.jsp">Nurse</a>
+                    <a href="LoginSHALOM.jsp">Medical Admin</a>
+                </div>
+            </li>
+            <li><a href="About UsSHALOM.jsp">About Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+	
+	
+	
+	
+    <h1>Treatment Facilities</h1>
+    <div class="circle circle1"></div>
+    <div class="circle circle2"></div>
+
+    <div class="container">
+        <!-- Facility Cards -->
+        <div class="facility">
+            <h2>Emergency Care</h2>
+            <img src="./ImageSourceFile/emergency-care.jpg" alt="Emergency Care" class="imgfac">
+            <p>
+                Our Emergency Care unit operates 24/7, ensuring immediate attention for life-threatening conditions. 
+                Equipped with cutting-edge technology and a skilled team of emergency medicine specialists, we prioritize rapid response and comprehensive care. 
+                From trauma management to critical care, our facilities are designed to handle any medical emergency efficiently and effectively, ensuring that patients receive timely and appropriate care when they need it the most.
+            </p>
+        </div>
+
+        <div class="facility">
+            <h2>Cardiology Department</h2>
+            <img src="./ImageSourceFile/cardiology.jpeg" alt="Cardiology Department" class="imgfac">
+            <p>
+                The Cardiology Department at Arogya Care Hospital offers a full spectrum of services for diagnosing and treating heart-related ailments. 
+                Our team of experienced cardiologists utilizes advanced imaging technologies, stress testing, and comprehensive cardiac rehabilitation programs to ensure the best outcomes for our patients. 
+                From routine check-ups to complex interventional procedures, we are committed to heart health and wellness, providing tailored treatment plans that consider each patient’s unique needs.
+            </p>
+        </div>
+
+        <div class="facility">
+            <h2>Neurology Department</h2>
+            <img src="./ImageSourceFile/neurology.jpg" alt="Neurology Department" class="imgfac">
+            <p>
+                Our Neurology Department specializes in diagnosing and treating a wide range of neurological conditions, including stroke, epilepsy, multiple sclerosis, and migraines. 
+                Utilizing state-of-the-art diagnostic tools such as EEG and MRI, our neurologists work closely with patients to develop personalized treatment plans, which may include medication management and innovative therapies aimed at enhancing quality of life. 
+                We focus on patient-centered care, ensuring that each individual receives the attention and support they need during their treatment journey.
+            </p>
+        </div>
+
+        <div class="facility">
+            <h2>Oncology Department</h2>
+            <img src="./ImageSourceFile/Oncology.jpg" alt="Oncology Department" class="imgfac">
+            <p>
+                The Oncology Department at Arogya Care Hospital is dedicated to providing comprehensive cancer care, addressing the unique needs of each patient. 
+                From initial diagnosis to treatment and survivorship, we offer personalized plans that may include chemotherapy, radiation therapy, and support services such as nutrition counseling and psychological support. 
+                Our compassionate team of oncologists, nurses, and support staff work collaboratively to provide holistic care tailored to each patient’s journey, helping them navigate the challenges of cancer treatment.
+            </p>
+        </div>
+
+        <div class="facility">
+            <h2>Pediatrics Department</h2>
+            <img src="./ImageSourceFile/pediatrics.webp" alt="Pediatrics Department" class="imgfac">
+            <p>
+                Our Pediatrics Department specializes in the healthcare of infants, children, and adolescents. 
+                With a team of pediatricians and child specialists, we provide preventive care, vaccinations, and treatment for various health issues. 
+                Our approach is family-centered, ensuring that both children and their families are supported throughout their healthcare journey. 
+                We emphasize preventive care and education, helping families maintain healthy lifestyles and understand their child's health needs.
+            </p>
+        </div>
+
+        <div class="facility">
+            <h2>Orthopedic Surgery</h2>
+            <img src="./ImageSourceFile/orthopedic.jpg" alt="Orthopedic Surgery" class="imgfac">
+            <p>
+                The Orthopedic Surgery Department at Arogya Care Hospital offers expert care for musculoskeletal disorders. 
+                Our orthopedic surgeons specialize in surgical and non-surgical treatments for conditions affecting bones, joints, and ligaments. 
+                With advanced techniques and rehabilitation services, we aim to restore mobility and improve the quality of life for our patients, providing personalized treatment plans that are tailored to individual needs.
+            </p>
+        </div>
+
+        <div class="facility">
+            <h2>Maternity Services</h2>
+            <img src="./ImageSourceFile/maternity.webp" alt="Maternity Services" class="imgfac">
+            <p>
+                Our Maternity Services provide comprehensive care throughout the pregnancy journey, from preconception counseling to postnatal support. 
+                We prioritize the health and well-being of mothers and newborns, offering personalized birth plans and expert care during labor and delivery. 
+                Our dedicated team ensures a safe and supportive environment for every family, including lactation consultations and parenting education to help new parents adjust to their roles.
+            </p>
+        </div>
+
+        <div class="facility">
+            <h2>Dialysis Center</h2>
+            <img src="./ImageSourceFile/dialysis.jpg" alt="Dialysis Center" class="imgfac">
+            <p>
+                Our Dialysis Center is equipped with the latest technology to provide high-quality care for patients with kidney disease. 
+                We offer both hemodialysis and peritoneal dialysis options, along with personalized support from our dedicated nursing team. 
+                Our goal is to enhance the well-being of our patients while they undergo treatment, providing a comfortable and compassionate environment. 
+                We also focus on educating patients about their condition and empowering them to manage their health.
+            </p>
+        </div>
+
+        <div class="facility">
+            <h2>Radiology & Imaging</h2>
+            <img src="./ImageSourceFile/radiology.webp" alt="Radiology and Imaging" class="imgfac">
+            <p>
+                The Radiology & Imaging Department offers a wide range of diagnostic imaging services, including X-ray, MRI, CT scans, and ultrasound. 
+                Our team of radiologists utilizes the latest technology to ensure accurate diagnoses while prioritizing patient comfort and safety. 
+                We aim to provide timely results to support effective treatment plans, ensuring that patients receive the highest standard of care during their diagnostic journey.
+            </p>
+        </div>
+    </div>
+    
+    <footer>
+    <div class="footer-container">
+        <div class="footer-content">
+            <h3>Arogya Care Hospital</h3>
+            <p>Contact: <a href="tel:+00213674211">+94 21 856 8547</a></p>
+            <p class="social">
+                Follow Us:
+                <a href="#">Facebook</a> |
+                <a href="#">LinkedIn</a> |
+                <a href="#">Twitter</a>
+            </p>
+            <p class="tagline">Your Health, Our Expertise</p>
+            <p>&copy; 2024 Arogya Care Hospital, All Rights Reserved. Colombo, Malabe.</p>
+        </div>
+    </div>
+</footer>
+    
+</body>
+</html>
